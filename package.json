@@ -1,0 +1,27 @@
+{
+  "name": "evergreen-travis-consumer",
+  "version": "1.0.0",
+  "description": "SQS Consumer for evergreen-travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "lambda-bundler --env .env --envfile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennym/evergreen-travis-consumer.git"
+  },
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennym/evergreen-travis-consumer/issues"
+  },
+  "homepage": "https://github.com/lennym/evergreen-travis-consumer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.2",
+    "env2": "^2.1.1"
+  },
+  "devDependencies": {
+    "lambda-bundler": "^1.0.1"
+  }
+}
