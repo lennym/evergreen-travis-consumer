@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lennym/evergreen-travis-consumer#readme",
   "dependencies": {
     "aws-sdk": "^2.7.2",
+    "bluebird": "^3.4.6",
     "env2": "^2.1.1"
   },
   "devDependencies": {
